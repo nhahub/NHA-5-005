@@ -1,0 +1,14 @@
+.env
+*.db
+*.sqlite
+*.sqlite3
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.db-wal
+*.db-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.sqlite-wal
+*.sqlite-shm

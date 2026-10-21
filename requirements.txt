@@ -1,0 +1,14 @@
+# Local inference plus optional cloud boundaries; SQLite is in the standard library.
+groq>=0.11
+faster-whisper>=1.2,<2
+kokoro==0.9.4
+torch>=2.1
+soundfile>=0.13
+numpy>=1.26
+SpeechRecognition>=3.10
+PyAudio>=0.2.14
+edge-tts>=7.0
+pygame>=2.6.1
+# Local deterministic verification
+pytest>=8.0
+ruff>=0.8
